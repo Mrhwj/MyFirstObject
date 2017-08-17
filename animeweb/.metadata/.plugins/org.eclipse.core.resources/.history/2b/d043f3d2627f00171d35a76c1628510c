@@ -1,0 +1,14 @@
+package com.hwj.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class BaseController {
+	
+	public ModelAndView Index_page(){
+		ModelAndView mv = new ModelAndView("/page/index");
+		return mv;
+	}
+	
+}
